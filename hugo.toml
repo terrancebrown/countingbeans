@@ -1,0 +1,17 @@
+baseURL = "https://countingbeans.co.za/"
+theme = "hugo-bearblog"
+title = "Counting Beans"
+author = "Terrance Brown"
+copyright = "Copyright © 2026, Terrance Brown."
+languageCode = "en-GB"
+enableRobotsTXT = true
+
+disableKinds = ["taxonomy"]
+ignoreErrors = ["error-disable-taxonomy"]
+
+[permalinks]
+  blog = "/:slug/"
+
+[params]
+  description = "A slow blog about small things."
+  favicon = "images/favicon.png"
