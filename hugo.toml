@@ -3,7 +3,7 @@ theme = "hugo-bearblog"
 title = "Counting Beans"
 author = "Terrance Brown"
 copyright = "Copyright © 2026, Terrance Brown."
-languageCode = "en-GB"
+locale = "en-GB"
 enableRobotsTXT = true
 
 disableKinds = ["taxonomy"]
@@ -13,5 +13,16 @@ ignoreErrors = ["error-disable-taxonomy"]
   blog = "/:slug/"
 
 [params]
-  description = "A slow blog about small things."
+  description = "Notes from a small life."
   favicon = "images/favicon.png"
+  images = ["images/share.png"]
+  title = "Counting Beans"
+  enablePostNavigator = true
+  dateFormat = "Jan 2006"
+
+[markup]
+  [markup.highlight]
+    style = 'friendly'
+    lineNos = true
+    lineNumbersInTable = false
+    codeFences = true
