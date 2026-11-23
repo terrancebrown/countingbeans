@@ -26,3 +26,23 @@ ignoreErrors = ["error-disable-taxonomy"]
     lineNos = true
     lineNumbersInTable = false
     codeFences = true
+
+[[menus.main]]
+name = "Home"
+pageRef = "/"
+weight = 1
+
+[[menus.main]]
+name = "Blog"
+pageRef = "/blog"
+weight = 5
+
+[[menus.main]]
+name = "About"
+pageRef = "/about"
+weight = 10
+
+[[menus.main]]
+name = "RSS"
+url = "/index.xml"
+weight = 15
